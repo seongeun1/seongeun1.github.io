@@ -1,0 +1,106 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="92">
+            <item index="0" class="java.lang.String" itemvalue="ftfy" />
+            <item index="1" class="java.lang.String" itemvalue="timm" />
+            <item index="2" class="java.lang.String" itemvalue="sentencepiece" />
+            <item index="3" class="java.lang.String" itemvalue="huggingface_hub" />
+            <item index="4" class="java.lang.String" itemvalue="protobuf" />
+            <item index="5" class="java.lang.String" itemvalue="triton" />
+            <item index="6" class="java.lang.String" itemvalue="hydra-core" />
+            <item index="7" class="java.lang.String" itemvalue="pytest" />
+            <item index="8" class="java.lang.String" itemvalue="pytorch_lightning" />
+            <item index="9" class="java.lang.String" itemvalue="fire" />
+            <item index="10" class="java.lang.String" itemvalue="pytest-split" />
+            <item index="11" class="java.lang.String" itemvalue="setproctitle" />
+            <item index="12" class="java.lang.String" itemvalue="bitsandbytes" />
+            <item index="13" class="java.lang.String" itemvalue="transformers" />
+            <item index="14" class="java.lang.String" itemvalue="octis" />
+            <item index="15" class="java.lang.String" itemvalue="pydantic" />
+            <item index="16" class="java.lang.String" itemvalue="starlette-context" />
+            <item index="17" class="java.lang.String" itemvalue="korpora" />
+            <item index="18" class="java.lang.String" itemvalue="streamlit" />
+            <item index="19" class="java.lang.String" itemvalue="dependency_injector" />
+            <item index="20" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="21" class="java.lang.String" itemvalue="bert-score" />
+            <item index="22" class="java.lang.String" itemvalue="kss" />
+            <item index="23" class="java.lang.String" itemvalue="requests" />
+            <item index="24" class="java.lang.String" itemvalue="altair" />
+            <item index="25" class="java.lang.String" itemvalue="pandas" />
+            <item index="26" class="java.lang.String" itemvalue="openai" />
+            <item index="27" class="java.lang.String" itemvalue="XlsxWriter" />
+            <item index="28" class="java.lang.String" itemvalue="python-json-logger" />
+            <item index="29" class="java.lang.String" itemvalue="larva" />
+            <item index="30" class="java.lang.String" itemvalue="bokeh" />
+            <item index="31" class="java.lang.String" itemvalue="pytz" />
+            <item index="32" class="java.lang.String" itemvalue="sacrebleu" />
+            <item index="33" class="java.lang.String" itemvalue="evaluate" />
+            <item index="34" class="java.lang.String" itemvalue="openpyxl" />
+            <item index="35" class="java.lang.String" itemvalue="sseclient-py" />
+            <item index="36" class="java.lang.String" itemvalue="wandb" />
+            <item index="37" class="java.lang.String" itemvalue="rich" />
+            <item index="38" class="java.lang.String" itemvalue="datasets" />
+            <item index="39" class="java.lang.String" itemvalue="numpy" />
+            <item index="40" class="java.lang.String" itemvalue="einops" />
+            <item index="41" class="java.lang.String" itemvalue="mpi4py" />
+            <item index="42" class="java.lang.String" itemvalue="torchtyping" />
+            <item index="43" class="java.lang.String" itemvalue="rouge_score" />
+            <item index="44" class="java.lang.String" itemvalue="jsonlines" />
+            <item index="45" class="java.lang.String" itemvalue="mlflow" />
+            <item index="46" class="java.lang.String" itemvalue="clops" />
+            <item index="47" class="java.lang.String" itemvalue="scikit-learn" />
+            <item index="48" class="java.lang.String" itemvalue="rouge-score" />
+            <item index="49" class="java.lang.String" itemvalue="typeguard" />
+            <item index="50" class="java.lang.String" itemvalue="scikit-image" />
+            <item index="51" class="java.lang.String" itemvalue="bs4" />
+            <item index="52" class="java.lang.String" itemvalue="mecab-python3" />
+            <item index="53" class="java.lang.String" itemvalue="html5lib" />
+            <item index="54" class="java.lang.String" itemvalue="gradio" />
+            <item index="55" class="java.lang.String" itemvalue="nltk" />
+            <item index="56" class="java.lang.String" itemvalue="webdriver-manager" />
+            <item index="57" class="java.lang.String" itemvalue="alphabet-detector" />
+            <item index="58" class="java.lang.String" itemvalue="lmdb" />
+            <item index="59" class="java.lang.String" itemvalue="thulac" />
+            <item index="60" class="java.lang.String" itemvalue="path" />
+            <item index="61" class="java.lang.String" itemvalue="datefinder" />
+            <item index="62" class="java.lang.String" itemvalue="selenium" />
+            <item index="63" class="java.lang.String" itemvalue="sconf" />
+            <item index="64" class="java.lang.String" itemvalue="deepspeed" />
+            <item index="65" class="java.lang.String" itemvalue="KELIP" />
+            <item index="66" class="java.lang.String" itemvalue="lxml" />
+            <item index="67" class="java.lang.String" itemvalue="accelerate" />
+            <item index="68" class="java.lang.String" itemvalue="zss" />
+            <item index="69" class="java.lang.String" itemvalue="augraphy" />
+            <item index="70" class="java.lang.String" itemvalue="beautifulsoup4" />
+            <item index="71" class="java.lang.String" itemvalue="tokenizers" />
+            <item index="72" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="73" class="java.lang.String" itemvalue="jamo" />
+            <item index="74" class="java.lang.String" itemvalue="torch" />
+            <item index="75" class="java.lang.String" itemvalue="cssutils" />
+            <item index="76" class="java.lang.String" itemvalue="overrides" />
+            <item index="77" class="java.lang.String" itemvalue="unidic-lite" />
+            <item index="78" class="java.lang.String" itemvalue="pytorch-lightning" />
+            <item index="79" class="java.lang.String" itemvalue="synthtiger" />
+            <item index="80" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="81" class="java.lang.String" itemvalue="peft" />
+            <item index="82" class="java.lang.String" itemvalue="webdataset" />
+            <item index="83" class="java.lang.String" itemvalue="textblob" />
+            <item index="84" class="java.lang.String" itemvalue="ujson" />
+            <item index="85" class="java.lang.String" itemvalue="deepl" />
+            <item index="86" class="java.lang.String" itemvalue="asyncio" />
+            <item index="87" class="java.lang.String" itemvalue="aiohttp" />
+            <item index="88" class="java.lang.String" itemvalue="jmespath" />
+            <item index="89" class="java.lang.String" itemvalue="orjson" />
+            <item index="90" class="java.lang.String" itemvalue="flake8" />
+            <item index="91" class="java.lang.String" itemvalue="timezone" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="StandardJS" enabled="true" level="ERROR" enabled_by_default="true" />
+  </profile>
+</component>
