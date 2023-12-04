@@ -886,7 +886,10 @@ pre .storage {
 	padding-left: 30px;
 	padding-right: 30px;
 }
-
+p {
+	/* 수평 중앙 정렬하기 */
+	text-align: center;
+  }
 .inner {
 	margin: 0 auto;
 	max-width: 740px;
