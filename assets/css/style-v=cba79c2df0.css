@@ -660,15 +660,16 @@ input[type="submit"]:active {
 
 visual {
 	width:100%;
-	margin: 0 auto;
+	margin: 10 auto;
 	text-align: center;
 
 }
 /* Images */
 img {
-	
 	max-width: 100%;
 }
+
+
 
 /* Videos, audios and embeds */
 embed,
@@ -832,6 +833,12 @@ pre .storage {
 	background-color: #000;
 	border-color: #000;
 	color: #fff;
+}
+
+.portfolio img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 
 /* Animations */
@@ -1915,6 +1922,35 @@ pre .storage {
  * ----------------------------------------------------------------------------
  */
 
+
+ media (max-width:767px) {
+    .portfolio img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media (min-width:768px) {
+    .portfolio img {
+        max-width: 240px;
+        max-height: 240px;
+    }
+}
+
+@media (min-width:992px) {
+    .portfolio img {
+        max-width: 314px;
+        max-height: 314px;
+    }
+}
+
+@media (min-width:1200px) {
+    .portfolio img {
+        max-width: 380px;
+        max-height: 380px;
+    }
+}
+
 @media only screen and (min-width: 1400px) {
 	h1 {
 		font-size: 48px;
@@ -2577,3 +2613,4 @@ a.button.light1:hover {
     border-color: #000;
     color: #fff;
 }
+
