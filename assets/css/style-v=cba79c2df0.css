@@ -1826,8 +1826,8 @@ pre .storage {
 
 .site-footer {
 	background-color: #fff;
-	 /* 수평 중앙 정렬하기 */
-	text-align: center;
+
+	
 }
 
 .footer-top {
@@ -1841,10 +1841,10 @@ pre .storage {
 }
 
 .offsite-links {
-	/* padding-right: 0px;
-	margin: 0 auto; */
+	padding-right: 0px;
+	margin: 0 auto;
     display: table;
-	text-align: center;
+
 }
 
 .offsite-links a {
