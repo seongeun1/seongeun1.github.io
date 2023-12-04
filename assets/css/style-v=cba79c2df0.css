@@ -1935,6 +1935,13 @@ pre .storage {
         max-width: 240px;
         max-height: 240px;
     }
+
+}
+@media (min-width:769px) {
+    .portfolio img {
+        max-width: 300px;
+        max-height: 300px;
+    }
 }
 
 @media (min-width:992px) {
@@ -2293,6 +2300,11 @@ pre .storage {
 }
 
 @media only screen and (max-width: 800px) {
+	.post-template .site-header,
+	.page-template .site-header {
+		position: static;
+		width: auto;
+	}
 	.author-template .grid-item,
 	.tag-template .grid-item {
 		width: 100%;
@@ -2311,6 +2323,11 @@ pre .storage {
 }
 
 @media only screen and (max-width: 640px) {
+	.post-template .site-header,
+	.page-template .site-header {
+		position: static;
+		width: auto;
+	}
 	html {
 		font-size: 100%;
 	}
@@ -2369,6 +2386,11 @@ pre .storage {
 }
 
 @media only screen and (max-width: 600px) {
+	.post-template .site-header,
+	.page-template .site-header {
+		position: static;
+		width: auto;
+	}
 	.author-box .author-avatar {
 		display: block;
 		margin-bottom: 30px;
@@ -2404,6 +2426,11 @@ pre .storage {
 }
 
 @media only screen and (max-width: 480px) {
+	.post-template .site-header,
+	.page-template .site-header {
+		position: static;
+		width: auto;
+	}
 	h1,
 	.page-title,
 	.post-template .post-title,
@@ -2515,6 +2542,11 @@ pre .storage {
 
 
 @media only  screen and (min-width:961px) and (max-width: 1400px) {
+	.post-template .site-header,
+	.page-template .site-header {
+		position: static;
+		width: auto;
+	}
 .grid-item, .home-template .grid-item:nth-child(3n+1), .cover.page-header {
     height: 500px;
     height: 450px;
