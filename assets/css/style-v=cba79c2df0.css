@@ -2044,7 +2044,10 @@ pre .storage {
 	.share-post,
 	.post-count,
 	.pagination {
-		/*font-size: 14px;*/
+		font-size: 14px;
+		border: 0;
+		color: #111;
+		padding: 7px 15px;
 	}
 
 	.author-box .author-description {
