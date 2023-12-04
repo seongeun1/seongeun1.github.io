@@ -154,12 +154,7 @@
 .icon-message:before{
 	content: "\f27a";
 }
-.icon-music:before{
-	content: "\f001";
-}
-.icon-mug:before{
-	content: "\f7b6";
-}
+
 /**
  * 1. Reset
  * ----------------------------------------------------------------------------
@@ -663,9 +658,15 @@ input[type="submit"]:active {
 	color: #666;
 }
 
+visual {
+	width:100%;
+	margin: 0 auto;
+	text-align: center;
+
+}
 /* Images */
 img {
-	height: auto;
+	
 	max-width: 100%;
 }
 
