@@ -151,11 +151,15 @@
 .icon-vimeo:before {
 	content: "\f27d";
 }
-
-.icon-star:before{
-	content: "\e885";
+.icon-message:before{
+	content: "\f27a";
 }
-
+.icon-music:before{
+	content: "\f001";
+}
+.icon-mug:before{
+	content: "\f7b6";
+}
 /**
  * 1. Reset
  * ----------------------------------------------------------------------------
