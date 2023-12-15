@@ -21,7 +21,11 @@ author: Seongeun
 
 # Build settings
 markdown: kramdown
-
+comments:
+  provider      : "utterances"
+  utterances :
+    theme       : "github-light"
+    issue_term  : "pathname"
 #Have to show future posts for future events.
 future: true
 
