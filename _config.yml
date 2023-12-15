@@ -6,21 +6,18 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 #FOR MOE INFOS, CHECK OUT THE   - organisers.yml file 
 # Site settings
-title: Glas 
+title: Invitation from Parks
 #What is the name of the events or talks you would like to host? (Example Brownbags, Talks, Lighting Talks)
 event_label: Events
 
 description: > # "
-  your description.....
+  Wedding Invitation
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://spaceg.github.io" # the base hostname & protocol for your site
-
+repository : "seongeun1/comments"
 #These settings might be able to go?
-author: Lucas Gatsas @ spacedig.ch 
-twitter_username: yourtwitter
-github_username:  yourgithub
-company_name: yourname
+author: Seongeun
 
 # Build settings
 markdown: kramdown
