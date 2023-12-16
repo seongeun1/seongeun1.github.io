@@ -79,11 +79,6 @@ future: true
 permalink: /event/:title.html
 
 
-comments:
-  provider               : "utterances" 
-  utterances:
-    theme                : "github-light" (default), "github-dark"
-
 #change your port on localhost
 port: 8000
 
