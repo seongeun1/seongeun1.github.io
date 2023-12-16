@@ -1,35 +1,100 @@
-# GLAS - JEKYLL Theme/Blog
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-#FOR MOE INFOS, CHECK OUT THE   - organisers.yml file 
-# Site settings
-title: Invitation from Parks
-#What is the name of the events or talks you would like to host? (Example Brownbags, Talks, Lighting Talks)
-event_label: Events
 
-description: > # "
-  Wedding Invitation
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://spaceg.github.io" # the base hostname & protocol for your site
-repository : "seongeun1/comments"
-#These settings might be able to go?
-author: Seongeun
+title         : "Invitation from Parks"
+name          : "Seongeun Seolleun Park" 
+description   : "Wedding Invitation"
+url           : "https://seongeun1.github.io" # the base hostname & protocol for your site
+
+teaser        : "/img/main2.jpg"
+og_image      : "/img/main2.jpg"
+
+repository    : "seongeun1/comments"
+author        : Seongeun
+
+
+# Site Author
+author:
+  name             : "Seongeun Seolleun Park"
+  avatar           : "/img/UND_0248.JPG"
+  bio              : "흠"
+  location         : "Republic of Korea"
+  email            : "galaxypse723@gamil.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:galaxypse723@gamil.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://blog.naver.com/se_in_the_galaxy"
+
+
+defaults : 
+    - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/seongeun1"
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 1 # 첫 페이지에보여줄 최근 게시물 수를 지정
+paginate_path: /page:num/
+timezone: Asia/Seoul # 
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+
 
 # Build settings
 markdown: kramdown
-comments:
-  provider      : "utterances"
-  utterances :
-    theme       : "github-light"
-    issue_term  : "pathname"
+
 #Have to show future posts for future events.
 future: true
 
 permalink: /event/:title.html
+
+
+comments:
+  provider               : "utterances" 
+  utterances:
+    theme                : "github-light" (default), "github-dark"
 
 #change your port on localhost
 port: 8000
