@@ -28,18 +28,6 @@ author:
       url: "https://blog.naver.com/se_in_the_galaxy"
 
 
-defaults : 
-    - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-
 
 # Site Footer
 footer:
