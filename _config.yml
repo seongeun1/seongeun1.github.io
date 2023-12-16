@@ -12,35 +12,20 @@ repository    : "seongeun1/comments"
 author        : Seongeun
 
 
-# Site Author
-author:
-  name             : "Seongeun Seolleun Park"
-  avatar           : "/img/UND_0248.JPG"
-  bio              : "흠"
-  location         : "Republic of Korea"
-  email            : "galaxypse723@gamil.com"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:galaxypse723@gamil.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://blog.naver.com/se_in_the_galaxy"
-
-
-
-# Site Footer
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/seongeun1"
-
-# Outputting
-permalink: /:categories/:title/
-paginate: 1 # 첫 페이지에보여줄 최근 게시물 수를 지정
-paginate_path: /page:num/
-timezone: Asia/Seoul # 
+# # Site Author
+# author:
+#   name             : "Seongeun Seolleun Park"
+#   avatar           : "/img/UND_0248.JPG"
+#   bio              : "흠"
+#   location         : "Republic of Korea"
+#   email            : "galaxypse723@gamil.com"
+#   links:
+#     - label: "Email"
+#       icon: "fas fa-fw fa-envelope-square"
+#       url: mailto:galaxypse723@gamil.com
+#     - label: "Website"
+#       icon: "fas fa-fw fa-link"
+#       url: "https://blog.naver.com/se_in_the_galaxy"
 
 
 
